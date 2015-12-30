@@ -1,0 +1,5 @@
+http://site.com
+http://site2.com
+http://site2.com
+site.com/admin/login.php
+https://login.site.com/login.php
