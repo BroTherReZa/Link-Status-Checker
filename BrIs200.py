@@ -2,9 +2,18 @@
 import urllib2
 import sys
 if len(sys.argv) == 1 or len(sys.argv) > 2:
-    print "\n"+"+"*50
+    print "="*68
+    print "#    ____         _______ _               _____      ______        #"
+    print "#   |  _ \       |__   __| |             |  __ \    |___  /        #"
+    print "#   | |_) |_ __ ___ | |  | |__   ___ _ __| |__) |___   / / __ _    #"
+    print "#   |  _ <| '__/ _ \| |  | '_ \ / _ \ '__|  _  // _ \ / / / _` |   #"
+    print "#   | |_) | | | (_) | |  | | | |  __/ |  | | \ \  __// /_| (_| |   #"
+    print "#   |____/|_|  \___/|_|  |_| |_|\___|_|  |_|  \_\___/_____\__,_|   #"
+    print "#                                   ______                         #"
+    print "#                                  |______|                        #"					
+    print "="*68
     print "# ToolsName :\tBrIs200 \n# Author :\tBroTher_ReZa \n# Date :\t28 Des 2015 \n# Usage :\tpython BrIs200.py UrlList.txt \n# Notics:\tUrlList Must Be Line by line"
-    print "+"*50
+    print "+"*70
 else:
     if (sys.argv[1]):
         print "\n"+"+"*50
